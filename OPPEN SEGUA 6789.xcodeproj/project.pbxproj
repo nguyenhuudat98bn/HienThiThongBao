@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		572B8A7F2099A43E00B17DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B8A7E2099A43E00B17DD3 /* AppDelegate.swift */; };
-		572B8A812099A43E00B17DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B8A802099A43E00B17DD3 /* ViewController.swift */; };
+		572B8A812099A43E00B17DD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B8A802099A43E00B17DD3 /* DetailViewController.swift */; };
 		572B8A842099A43E00B17DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572B8A822099A43E00B17DD3 /* Main.storyboard */; };
 		572B8A862099A44000B17DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572B8A852099A44000B17DD3 /* Assets.xcassets */; };
 		572B8A892099A44000B17DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572B8A872099A44000B17DD3 /* LaunchScreen.storyboard */; };
+		572B8A912099A45500B17DD3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B8A902099A45500B17DD3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		572B8A7B2099A43E00B17DD3 /* OPPEN SEGUA 6789.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OPPEN SEGUA 6789.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572B8A7E2099A43E00B17DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		572B8A802099A43E00B17DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		572B8A802099A43E00B17DD3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		572B8A832099A43E00B17DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		572B8A852099A44000B17DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572B8A882099A44000B17DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572B8A8A2099A44000B17DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572B8A902099A45500B17DD3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				572B8A7E2099A43E00B17DD3 /* AppDelegate.swift */,
-				572B8A802099A43E00B17DD3 /* ViewController.swift */,
+				572B8A902099A45500B17DD3 /* TableViewController.swift */,
+				572B8A802099A43E00B17DD3 /* DetailViewController.swift */,
 				572B8A822099A43E00B17DD3 /* Main.storyboard */,
 				572B8A852099A44000B17DD3 /* Assets.xcassets */,
 				572B8A872099A44000B17DD3 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572B8A812099A43E00B17DD3 /* ViewController.swift in Sources */,
+				572B8A912099A45500B17DD3 /* TableViewController.swift in Sources */,
+				572B8A812099A43E00B17DD3 /* DetailViewController.swift in Sources */,
 				572B8A7F2099A43E00B17DD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +284,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V2NPA2JVB;
 				INFOPLIST_FILE = "OPPEN SEGUA 6789/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "as.OPPEN-SEGUA-6789";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +305,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V2NPA2JVB;
 				INFOPLIST_FILE = "OPPEN SEGUA 6789/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "as.OPPEN-SEGUA-6789";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
